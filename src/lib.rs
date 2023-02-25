@@ -1,3 +1,5 @@
+#![doc = include_str!("../readme.md")]
+
 use std::collections::*;
 use std::{cmp::Ordering, result::Result};
 
