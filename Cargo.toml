@@ -1,0 +1,16 @@
+[package]
+name = "bound-stl"
+version = "0.1.0"
+edition = "2021"
+authors = ["ssrlive <ssrlivebox@gmail.com>"]
+description = "Bound-STL attempts to implement `lower_bound` and `upper_bound` in C++ STL."
+categories = ["algorithm", "stl"]
+keywords = ["slice", "ord", "performance", "algorithm", "stl"]
+readme = "readme.md"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/ssrlive/bound-stl"
+
+[dependencies]
+
+[dev-dependencies]
+bound-stl = { path = "." }
